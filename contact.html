@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bishow Pandey</title>
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+
+    <style>
+        .page-note {
+            font-size: 13px;
+            color: #888899;
+            margin-top: 6px;
+            font-style: italic;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 620px) {
+            .two-col {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+
+    <div class="page-header">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch</p>
+    </div>
+
+
+    <div class="container">
+
+        <div class="two-col">
+
+
+            <div class="card">
+                <h2 class="section-title">Send a Message</h2>
+
+                <br>
+
+                <div class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+
+                        <input type="text" id="name" name="name" placeholder="Enter your full name"
+                            style="font-size: 14px;">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your mail address"
+                            style="font-size: 14px;">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..."
+                            style="font-size: 14px;"></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn">Send Message</button>
+
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <h2 class="section-title">My Information</h2>
+                    <div class="contact-info-box">
+                        <p><strong>Name:</strong> Bishow Pandey</p>
+                        <p><strong>School:</strong> Kavya School</p>
+                        <p><strong>Grade:</strong> 11 (Computer Science)</p>
+                        <p><strong>Email:</strong> <a
+                                href="mailto:bishowpandey1289@gmail.com">bishowpandey1289@gmail.com</a></p>
+                        <p><strong>Location:</strong> Kathmandu, Nepal</p>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 20px;">
+                    <h2 class="section-title">About This Form</h2>
+                    <p style="font-size: 14px; color: #555566; line-height: 1.7;">
+                        A contact form allows visitors to send messages directly through the website.
+                        For this project, the form is built using
+                        only HTML.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Bishow Pandey | Grade 11 Computer Science Portfolio | Kavya School 2026</p>
+    </footer>
+
+</body>
+
+</html>
